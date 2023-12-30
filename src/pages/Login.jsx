@@ -82,7 +82,7 @@ function Login() {
               </div>
             </button>
             <div className="flex justify-center  gap-2">
-              <span className="text-gray-900 ">Don’t have an account?</span>
+              <span className="text-gray-900 ">Don`t have an account?</span>
               <Link to={"/signup"}>
                 <button className="text-sky-600">Sign Up</button>
               </Link>

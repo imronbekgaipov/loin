@@ -11,7 +11,6 @@ function Slider({ recipe }) {
     <div className="w-full md:max-w-[450px] ">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar]}
-        // spaceBetween={0}
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}

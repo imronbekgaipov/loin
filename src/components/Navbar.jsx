@@ -29,10 +29,7 @@ function Navbar() {
         </a>
         <nav className="gap-3.5 text-center md:flex md:items-center">
           <p className="mb-4 dark:text-slate-200 md:m-0 md:text-xl md:font-medium">
-            Welcome,{" "}
-            <span className="text-red-500 dark:text-lime-300">
-              {user.displayName}😎
-            </span>
+            Welcome, {user.displayName} !
           </p>
           <div className="flex items-center justify-center gap-3">
             <button
@@ -40,7 +37,7 @@ function Navbar() {
               className="animation rounded-md bg-red-500 px-2 py-1  text-white hover:bg-red-400 md:px-3 md:py-2 "
             >
               <div className="animation flex items-center gap-2">
-                {isPending ? spinner() : ""} Logaut
+                {isPending ? spinner() : ""} Logout
               </div>
             </button>
 

@@ -42,9 +42,9 @@ function Recipe() {
           </span>
           <Link to={"/"}>
             <div className="flex flex-col items-end">
-              <button class=" focus:shadow-outline-blue animation flex w-[100px] items-center gap-2 rounded-lg bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 focus:outline-none active:bg-blue-800">
+              <button class=" focus:shadow-outline-blue animation flex w-[100px] items-center gap-2 rounded-lg bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700 focus:outline-none active:bg-red-900">
                 <MdOutlineKeyboardBackspace />
-                Home
+                Exit
               </button>
             </div>
           </Link>
