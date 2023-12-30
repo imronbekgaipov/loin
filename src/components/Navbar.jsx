@@ -31,7 +31,7 @@ function Navbar() {
           <p className="mb-4 dark:text-slate-200 md:m-0 md:text-xl md:font-medium">
             Welcome,{" "}
             <span className="text-red-500 dark:text-lime-300">
-              {user.displayName}!
+              {user.displayName}😎
             </span>
           </p>
           <div className="flex items-center justify-center gap-3">
